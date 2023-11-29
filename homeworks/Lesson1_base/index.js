@@ -1,9 +1,9 @@
 //Task 2
 //let name;
-let uzerName;
-let lastName;
-let firstName;
-let uzers_name;
+let userName = "Misha", // Зміна завжди має бути вказана
+  lastName,
+  firstName,
+  uzers_name;
 
 /* //*! The variable is not specitified correctly //
 let Name;   
@@ -18,9 +18,7 @@ let uzers_name; // ** shake_case **
 */
 
 // Task 5
-let name;
-
-prompt("Ведіть своє імя ");
+let name = prompt("Ведіть своє імя ");
 
 name = prompt(); // Записуєм імя до зміної
 

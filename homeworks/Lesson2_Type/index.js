@@ -101,41 +101,13 @@ console.log(
 // Task 6
 // ** Користувач вводить суму вкладу в банк на 2 місяці, з процентною ставкою депозиту 5% річних. Вивести суму нарахованих відсотків.
 
-// Запитаємо у користувача суму вкладу
-// const depositAmount = prompt("Введіть суму вкладу: ");
-
-// // Визначимо кількість місяців депозиту
-// const depositTermInMonths = prompt("Кількість місяців депозиту");
-
-// // Визанчимо процент річних
-// const interestRateYear = 5;
-
-// //Визначимо кількість міясців на рік
-// const monthInYear = 12;
-
-// // Порахуємо процентний депозит на міясяць
-// const interestRateMonth = monthInYear / interestRateYear;
-
-// // Порахуємо суму нараховних відцотків
-// const interestAmount = depositAmount * depositTermInMonths * interestRateMonth;
-
-// console.log(
-//   "Якщо, сума вкладу буде  " +
-//     depositAmount +
-//     " на таку кількість місяців депозиту " +
-//     depositTermInMonths +
-//     " то тоді наша сума нараховних відсотків буде " +
-//     interestAmount
-// );
-
-// Запитаємо у користувача суму вкладу
-const depositAmount = prompt("Введіть суму вкладу: ");
+const depositAmount = +prompt("Введіть суму вкладу: ");
 
 // Визначимо процентну ставку депозиту
-const interestRate = 0.05;
+const interestRate = +prompt("Процентна ставка");
 
 // Визначимо кількість місяців депозиту
-const depositTermInMonths = 2;
+const depositTermInMonths = +prompt("місяць");
 
 // Розрахуємо суму нарахованих відсотків
 const interestAmount =
@@ -143,3 +115,5 @@ const interestAmount =
 
 // Виведемо результат
 console.log("Сума нарахованих відсотків: " + interestAmount);
+
+// Task  7
