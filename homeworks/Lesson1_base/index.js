@@ -20,8 +20,6 @@ let uzers_name; // ** shake_case **
 // Task 5
 let name = prompt("Ведіть своє імя ");
 
-name = prompt(); // Записуєм імя до зміної
-
 console.log("Привіт," + name);
 
 // Task6
@@ -87,12 +85,9 @@ console.log(
 
 // Task 10
 
-let DOLLAR_TO_EURO = 0.85; //  *? Визначимо константу для зберігання курсу валют
+const DOLLAR_TO_EURO = 0.85; //  *? Визначимо константу для зберігання курсу валют
 
-let dollars; // *? Визначимо змінну для зберігання введеної суми в доларах
-
-// *? Запитаємо у користувача суму в доларах
-dollars = prompt("Введіть суму в доларах: ");
+let dollars = prompt("Введіть суму в доларах: ");
 
 // ** Переведемо суму в євро
 let euros = dollars * DOLLAR_TO_EURO;
